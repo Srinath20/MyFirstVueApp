@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, watch } from 'vue';
-import Navbar from './components/Navbar.vue';
+import Navbar from '@/components/NavBar.vue';
 import TaskEditModal from './components/TaskEditModal.vue';
 
 const name = ref("Srinath");
